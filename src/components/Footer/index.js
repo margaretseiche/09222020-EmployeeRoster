@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer text-center">
       <span>Workplace Solutions, 2020</span>
     </footer>
   );
