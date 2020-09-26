@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Search(props) {
     return (
-        <div className="col c6 searchInput center-align">
+        <div className="c2 searchInput center-align">
             <input 
                 onChange={props.handleInputChange}
                 type="text"

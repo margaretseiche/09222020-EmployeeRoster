@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function Employee(props) {
     return (
         <table className="tableBlock">
             <thead>
-                <tr>
+                <tr className="tableHeader">
                     <th></th>
                     <th onClick = {props.sortEmployees}>Name</th>
                     <th>Phone</th>
@@ -16,9 +17,9 @@ function Employee(props) {
             <tbody>
                 {props.filteredEmployees.map(employee => (
                     
-                    <tr  key={employee.login.uuid}>
+                    <tr className="tableRow" key={employee.login.uuid}>
 
-                        <td><img src={employee.picture.medium} 
+                        <td><img className="employeeImage" src={employee.picture.medium} 
                                  alt={employee.name.first + " " + employee.name.last}>
                             </img>
                         </td>

@@ -1,0 +1,14 @@
+.searchInput {
+    margin: 1em;
+    border: 4px solid gray;
+    border-radius: 1.5em;
+    width: 20%;
+}
+
+.inputBox {
+    border: none;
+    border-radius: 1.5em;
+    background: none;
+    padding: 5px;
+    width: 100%
+}

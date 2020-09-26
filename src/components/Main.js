@@ -3,6 +3,13 @@ import API from "../utils/API";
 import Employee from "./Employee";
 import Search from "./Search";
 
+const styles = {
+  h2: {
+    color: "#2e2eb8",
+    margin: "0.5em"
+  }
+};
+
 class Main extends React.Component {
   state = {
     employees: [],
@@ -71,8 +78,9 @@ class Main extends React.Component {
           employees={this.state.employees}
           handleInputChange={this.handleInputChange}
         />
+        <h2 style={styles.h2}>Or sort alphabetically by name</h2>
 
-        <Employee  
+        <Employee 
           filteredEmployees={this.state.filteredEmployees} 
           sortEmployees={this.sortEmployees} 
         />

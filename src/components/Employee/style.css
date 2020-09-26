@@ -1,0 +1,24 @@
+.tableBlock {
+    margin: 1em;
+}
+
+th {
+    background-color: #2e2eb8;
+    color: white;    
+}
+
+td, th {
+    padding: 0.5em;
+}
+
+tr:nth-child(even) {
+    background: #fff2cc;
+}
+
+tr:nth-child(odd) {
+    background: #ebebfa;
+}
+
+.employeeImage {
+    border-radius: 45px;
+}
