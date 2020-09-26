@@ -4,9 +4,14 @@ import Employee from "./Employee";
 import Search from "./Search";
 
 const styles = {
+  main: {
+    marginLeft: "auto",
+    marginRight: "auto"
+  },
   h2: {
     color: "#2e2eb8",
-    margin: "0.5em"
+    margin: "0.5em",
+    textAlign: "center"
   }
 };
 
@@ -72,8 +77,7 @@ class Main extends React.Component {
   }
   render() {
     return (
-      <div>
-
+      <div style={styles.main}>
         <Search
           employees={this.state.employees}
           handleInputChange={this.handleInputChange}
