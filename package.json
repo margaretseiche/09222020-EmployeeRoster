@@ -2,7 +2,7 @@
   "name": "employeeroster",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://margaretseiche.github.io",
+  "homepage": "https://margaretseiche.github.io/09222020-EmployeeRoster",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
