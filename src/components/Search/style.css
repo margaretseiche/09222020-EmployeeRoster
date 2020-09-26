@@ -2,13 +2,14 @@
     margin: 1em;
     border: 4px solid gray;
     border-radius: 1.5em;
-    width: 20%;
+    width: 30%;
+    font-size: 1.5em;
 }
 
 .inputBox {
     border: none;
     border-radius: 1.5em;
     background: none;
-    padding: 5px;
+    padding: 15px;
     width: 100%
 }

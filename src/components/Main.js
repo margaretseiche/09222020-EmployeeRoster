@@ -78,7 +78,7 @@ class Main extends React.Component {
           employees={this.state.employees}
           handleInputChange={this.handleInputChange}
         />
-        <h2 style={styles.h2}>Or sort alphabetically by name</h2>
+        <h2 style={styles.h2}>Or click 'Name' to sort alphabetically by name</h2>
 
         <Employee 
           filteredEmployees={this.state.filteredEmployees} 
