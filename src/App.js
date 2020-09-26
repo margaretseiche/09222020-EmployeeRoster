@@ -1,8 +1,7 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
 import Hero from "./components/Hero";
-// import Main from "./components/Main";
-import Main from "./components/Main2";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
