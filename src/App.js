@@ -2,7 +2,7 @@ import React from "react";
 import Wrapper from "./components/Wrapper";
 import Hero from "./components/Hero";
 // import Main from "./components/Main";
-import Main from "./components/index";
+import Main from "./components/Main2";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Hero backgroundImage="../components/Hero/office_cropped.JPG">
               <h1>Employee Roster</h1>
         </Hero>
+
         <Main/>
       </Wrapper>
       <Footer/>  
